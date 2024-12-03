@@ -20676,7 +20676,7 @@ input:focus {
 /* Typography */
 body {
   font-size: 1rem;
-  font-family: "ubuntu-regular", sans-serif;
+   font-family: "Poppins", serif;
   font-weight: initial;
   line-height: normal;
   -webkit-font-smoothing: antialiased;
@@ -20694,7 +20694,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "ubuntu-medium", sans-serif;
+    font-family: "Oswald", sans-serif;
 }
 
 p {
@@ -20925,7 +20925,7 @@ code {
   height: 36px;
   border-radius: 4px;
   text-align: center;
-  box-shadow: 0px 3px 8.3px 0.7px rgba(163, 93, 255, 0.35);
+  box-shadow: 0px 3px 8.3px 0.7px rgba(239, 120, 0, 0.35);
 }
 .page-title .page-title-icon i {
   font-size: 0.9375rem;
@@ -20960,7 +20960,7 @@ code {
   -webkit-transition: all 0.25s ease;
   -ms-transition: all 0.25s ease;
   font-size: calc(0.875rem - 0.05rem);
-  font-family: "ubuntu-regular", sans-serif;
+   font-family: "Poppins", serif;
 }
 .footer a {
   color: #1bcfb4;
@@ -21106,11 +21106,11 @@ code {
 }
 
 .font-weight-bold {
-  font-family: "ubuntu-bold", sans-serif;
+   font-family: "Poppins", serif;
 }
 
 .font-weight-normal {
-  font-family: "ubuntu-regular", sans-serif;
+   font-family: "Poppins", serif;
 }
 
 .font-weight-medium {
@@ -21210,7 +21210,8 @@ code {
 }
 
 .bg-gradient-primary {
-  background: linear-gradient(to right, #da8cff, #9a55ff) !important;
+  /* background: linear-gradient(to right, #da8cff, #9a55ff) !important; */
+  background: #EF7800 !important;
 }
 
 .bg-gradient-secondary {
@@ -21788,7 +21789,7 @@ code {
   font-weight: initial;
   line-height: 1;
   padding: 0.375rem 0.5625rem;
-  font-family: "ubuntu-medium", sans-serif;
+    font-family: "Oswald", sans-serif;
 }
 .badge.badge-pill {
   border-radius: 10rem;
@@ -21929,7 +21930,7 @@ code {
 .btn, .ajax-upload-dragdrop .ajax-file-upload {
   font-size: 0.875rem;
   line-height: 1;
-  font-family: "ubuntu-bold", sans-serif;
+   font-family: "Poppins", serif;
   /* Buttons with only icons */
   /* Buttons with icon and text */
 }
@@ -22593,7 +22594,8 @@ code {
 
 /* gradient buttons */
 .btn-gradient-primary {
-  background: linear-gradient(to right, #da8cff, #9a55ff);
+  background: #EF7800 !important;
+  /* background: linear-gradient(to right, #da8cff, #9a55ff); */
   border: 0;
   -webkit-transition: opacity 0.3s ease;
   -moz-transition: opacity 0.3s ease;
@@ -23132,18 +23134,18 @@ code {
   color: #343a40;
   margin-bottom: 0.75rem;
   text-transform: capitalize;
-  font-family: "ubuntu-medium", sans-serif;
+    font-family: "Oswald", sans-serif;
   font-size: 1.125rem;
 }
 .card .card-subtitle {
-  font-family: "ubuntu-regular", sans-serif;
+   font-family: "Poppins", serif;
   margin-top: 0.625rem;
   margin-bottom: 0.625rem;
 }
 .card .card-description {
   color: #76838f;
   margin-bottom: 1.5rem;
-  font-family: "ubuntu-regular", sans-serif;
+   font-family: "Poppins", serif;
 }
 .card.card-outline-success {
   border: 1px solid #1bcfb4;
@@ -23569,7 +23571,7 @@ code {
 .tt-hint, .select2-container--default .select2-selection--single .select2-search__field, .select2-container--default .select2-selection--single,
 .form-select {
   border: 1px solid #ebedf2;
-  font-family: "ubuntu-regular", sans-serif;
+   font-family: "Poppins", serif;
   background-color: #ffffff;
 }
 .form-control:focus, .typeahead:focus,
@@ -23792,7 +23794,7 @@ select.form-select.border-dark:focus {
   -webkit-align-items: center;
   align-items: center;
   padding: 15px 15px;
-  font-family: "ubuntu-regular", sans-serif;
+   font-family: "Poppins", serif;
   font-size: 0.875rem;
 }
 .icons-list > div i {
@@ -24065,7 +24067,7 @@ dl li {
 .table thead th {
   border-top: 0;
   border-bottom-width: 1px;
-  font-family: "ubuntu-medium", sans-serif;
+    font-family: "Oswald", sans-serif;
   font-weight: initial;
 }
 .table thead th i {
@@ -24185,7 +24187,7 @@ dl li {
 /* CodeMirror */
 .CodeMirror {
   font-size: 0.875rem;
-  font-family: "ubuntu-regular", sans-serif;
+   font-family: "Poppins", serif;
   height: auto;
   text-align: left;
   min-height: auto;
@@ -24235,7 +24237,7 @@ dl li {
 }
 .datepicker.datepicker-dropdown .datepicker-days table.table-condensed thead tr th.dow,
 .datepicker.datepicker-inline .datepicker-days table.table-condensed thead tr th.dow {
-  font-family: "ubuntu-regular", sans-serif;
+   font-family: "Poppins", serif;
   color: #434a54;
   font-size: 0.875rem;
   font-weight: initial;
@@ -24511,7 +24513,7 @@ dl li {
   border-radius: 0;
   color: #ffffff;
   padding: 2rem 1rem;
-  font-family: "ubuntu-bold", sans-serif;
+   font-family: "Poppins", serif;
 }
 @media (max-width: 991px) {
   .datepicker-custom .datepicker.datepicker-inline .datepicker-days .table-condensed thead tr th.next, .datepicker-custom .datepicker.datepicker-inline .datepicker-days .table-condensed thead tr th.prev, .datepicker-custom .datepicker.datepicker-inline .datepicker-days .table-condensed thead tr th.datepicker-switch, .datepicker-custom .datepicker.datepicker-inline .datepicker-days .table-condensed thead tr th.dow,
@@ -25636,7 +25638,7 @@ dl li {
 .sidebar {
   min-height: calc(100vh - 70px);
   background: #ffffff;
-  font-family: "ubuntu-regular", sans-serif;
+   font-family: "Poppins", serif;
   padding: 0;
   width: 260px;
   z-index: 11;
@@ -25740,7 +25742,7 @@ dl li {
 }
 .sidebar .nav .nav-item.active > .nav-link .menu-title {
   color: #EF7800;
-  font-family: "ubuntu-medium", sans-serif;
+    font-family: "Oswald", sans-serif;
 }
 .sidebar .nav .nav-item.active > .nav-link i {
   color: #EF7800;
