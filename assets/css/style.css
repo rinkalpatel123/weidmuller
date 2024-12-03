@@ -24047,7 +24047,9 @@ dl li {
 .table thead th {
   border-top: 0;
   border-bottom-width: 1px;
-    font-family: "Oswald", sans-serif !important;
+  font-family: "Oswald", sans-serif !important;
+  font-size: 18px;
+  letter-spacing: 0.4px;
   font-weight: initial;
 }
 .table thead th i {
