@@ -23719,10 +23719,12 @@ select.form-select.border-dark:focus {
 }
 
 .form-group label {
-  font-size: 0.875rem;
-  line-height: 1;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
   vertical-align: top;
-  margin-bottom: 0.5rem;
+  margin-bottom: 8px;
+  color: #000000;
 }
 .form-group.has-danger .form-control, .form-group.has-danger .typeahead,
 .form-group.has-danger .tt-query,
@@ -26271,3 +26273,49 @@ dl li {
   flex-grow: 1;
 }
 /*# sourceMappingURL=maps/style.css.map */
+
+
+.custom-tabbing .nav-pills .nav-link.active,
+.custom-tabbing .nav-pills .show>.nav-link {
+  background-color: #ef7800;
+  color: #ffffff;
+}
+
+.custom-tabbing .nav-pills .nav-link {
+  border-radius: 0;
+  border: 1px solid #ef7800;
+  background: #ffffff;
+  color: #000000;
+  padding: 8px 70px;
+}
+
+/* dashboard card */
+
+.dash-card {
+  background: #FDEDDC;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.dash-card .card-body{
+  background: #ffffff;
+  /* padding: 15px; */
+}
+
+.dash-card .card-header{
+  background: transparent;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 0;
+  margin-bottom: 16px;
+  border: 0;
+}
+
+form.forms-sample .form-control{
+  border: 1px solid #CBC1C1;
+  background: #D9D9D930;
+  border-radius: 8px;
+  Height:52px;
+}
+
+
