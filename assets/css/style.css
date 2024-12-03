@@ -20572,27 +20572,6 @@ input:focus {
   outline: none;
 }
 
-/* Fonts */
-@font-face {
-  font-family: "ubuntu-light";
-  src: url("../fonts/Ubuntu/Ubuntu-Light.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/Ubuntu/Ubuntu-Light.woff2") format("woff2"), url("../fonts/Ubuntu/Ubuntu-Light.woff") format("woff"), url("../fonts/Ubuntu/Ubuntu-Light.ttf") format("truetype");
-}
-@font-face {
-  font-family: "ubuntu-regular";
-  src: url("../fonts/Ubuntu/Ubuntu-Regular.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/Ubuntu/Ubuntu-Regular.woff2") format("woff2"), url("../fonts/Ubuntu/Ubuntu-Regular.woff") format("woff"), url("../fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "ubuntu-medium";
-  src: url("../fonts/Ubuntu/Ubuntu-Medium.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/Ubuntu/Ubuntu-Medium.woff2") format("woff2"), url("../fonts/Ubuntu/Ubuntu-Medium.woff") format("woff"), url("../fonts/Ubuntu/Ubuntu-Medium.ttf") format("truetype");
-}
-@font-face {
-  font-family: "ubuntu-bold";
-  src: url("../fonts/Ubuntu/Ubuntu-Bold.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/Ubuntu/Ubuntu-Bold.woff2") format("woff2"), url("../fonts/Ubuntu/Ubuntu-Bold.woff") format("woff"), url("../fonts/Ubuntu/Ubuntu-Bold.ttf") format("truetype");
-}
 .text-twitter {
   color: #2caae1;
 }
@@ -20901,7 +20880,7 @@ pre {
 code {
   padding: 5px;
   color: #fe7c96;
-  font-family: "ubuntu-light", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 0.875rem;
   border-radius: 4px;
 }
@@ -20916,8 +20895,9 @@ code {
 
 .page-title {
   color: #343a40;
-  font-size: 1.125rem;
+  font-size: 21px;
   margin-bottom: 0;
+  letter-spacing: 0.5px;
 }
 .page-title .page-title-icon {
   display: inline-block;
@@ -21102,7 +21082,7 @@ code {
 }
 
 .font-weight-light {
-  font-family: "ubuntu-light", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .font-weight-bold {
@@ -25145,7 +25125,8 @@ dl li {
 
 /* Navbar */
 .navbar {
-  font-family: "ubuntu-light", sans-serif;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.3px;
   background: #fff;
   transition: background 0.25s ease;
   -webkit-transition: background 0.25s ease;
@@ -25252,22 +25233,22 @@ dl li {
 .navbar .navbar-menu-wrapper .search-field .input-group input:-ms-input-placeholder {
   font-size: 0.875rem;
   color: #9c9fa6;
-  font-family: "ubuntu-light", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 .navbar .navbar-menu-wrapper .search-field .input-group input:-moz-placeholder {
   font-size: 0.875rem;
   color: #9c9fa6;
-  font-family: "ubuntu-light", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 .navbar .navbar-menu-wrapper .search-field .input-group input::-moz-placeholder {
   font-size: 0.875rem;
   color: #9c9fa6;
-  font-family: "ubuntu-light", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 .navbar .navbar-menu-wrapper .search-field .input-group input::-webkit-input-placeholder {
   font-size: 0.875rem;
   color: #9c9fa6;
-  font-family: "ubuntu-light", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 .navbar .navbar-menu-wrapper .search-field .input-group i {
   font-size: 17px;
@@ -25725,8 +25706,8 @@ dl li {
 .sidebar .nav .nav-item .nav-link .menu-title {
   color: inherit;
   display: inline-block;
-  font-size: 0.875rem;
-  line-height: 1;
+  font-size: 14px;
+  line-height: 22px;
   vertical-align: middle;
   white-space: normal;
 }
@@ -25742,7 +25723,6 @@ dl li {
 }
 .sidebar .nav .nav-item.active > .nav-link .menu-title {
   color: #EF7800;
-    font-family: "Oswald", sans-serif !important;
 }
 .sidebar .nav .nav-item.active > .nav-link i {
   color: #EF7800;
