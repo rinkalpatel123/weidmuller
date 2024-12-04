@@ -575,8 +575,69 @@
                 <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
                   tabindex="0">
                   <!--  -->
+                  <div class="col-sm-12">
+                  <div class="w-100 text-end mt-3">
+                    <div class="btn btn-outline">Add Part</div>
+                  </div>
+
+                  <div class="custom-table mt-3">
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th> # </th>
+                            <th> Parts </th>
+                            <th> Status </th>
+                            <th> Last Update </th>
+                            <th> Action </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                             1
+                            </td>
+                            <td> Part 1 </td>
+                            <td> abc </td>
+                            <td> xyz </td>
+                            <td>
+                              <div class="d-flex align-items-center">
+                              <i class="mdi mdi-content-copy menu-icon"></i>
+                              <i class="mdi mdi-pencil menu-icon mx-2"></i>
+                              <i class="mdi mdi-delete menu-icon"></i>
+                            </div>
+                            </td>
+                          
+                          </tr>
+                          <tr>
+                            <td>
+                             2
+                            </td>
+                            <td> Part 2 </td>
+                            <td> Dec 5, 2017 </td>
+                            <td> xyz </td>
+                            <td>
+                              <div class="d-flex align-items-center">
+                              <i class="mdi mdi-content-copy menu-icon"></i>
+                              <i class="mdi mdi-pencil menu-icon mx-2"></i>
+                              <i class="mdi mdi-delete menu-icon"></i>
+                            </div>
+                            </td>
+                          
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+
+                  <div class="w-100 text-end mt-3 align-items-center justify-content-end">
+                    <div class="btn btn-outline">Submit</div>
+                  </div>
+                  </div>
+
+                  <!-- Parts-finish product -->
                   <div class="col-sm-12 mt-4">
-                    <div class="card dash-card">
+                    <div class="card dash-card part-boxe">
                       <div class="card-header">
                         <span> Parts - Boxs</span>
                       </div>
@@ -601,14 +662,14 @@
 
                               <div class="col-md-6">
                                 <div class="form-group">
-                                  <label for="exampleInputUsername1">WMKENQ :</label>
+                                  <label for="exampleInputUsername1">WMKENQ </label>
                                   <input type="text" class="form-control" id="exampleInputUsername1"
                                     placeholder="WMKENQ">
                                 </div>
                               </div>
                               <div class="col-md-6">
                                 <div class="form-group">
-                                  <label for="exampleInputUsername1">Item Part :</label>
+                                  <label for="exampleInputUsername1">Item Part</label>
                                   <input type="text" class="form-control" id="exampleInputUsername1"
                                     placeholder="Item Part">
                                 </div>
@@ -616,44 +677,44 @@
 
                               <div class="col-md-6">
                                 <div class="form-group">
-                                  <label for="exampleInputUsername1">New Css Item :</label>
+                                  <label for="exampleInputUsername1">Margin</label>
                                   <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="New Css Item">
+                                    placeholder="Margin">
                                 </div>
                               </div>
                               <div class="col-md-6">
                                 <div class="form-group">
-                                  <label for="exampleInputUsername1">QTY :</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1" placeholder="QTY">
-                                </div>
-                              </div>
-
-                              <div class="col-md-12">
-                                <div class="form-group">
-                                  <!-- <div class="form-floating"> -->
-                                    <label for="exampleInputUsername1"> Item description :</label>
-                                    <textarea class="form-control" placeholder="Leave a comment here"
-                                      id="floatingTextarea2" style="height: 100px"></textarea>
-                                    <!-- <label for="floatingTextarea2">Comments</label> -->
-                                  <!-- </div> -->
+                                  <label for="exampleInputUsername1">QTY</label>
+                                    <select class="form-select form-select-lg" id="exampleFormControlSelect1">
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5</option>
+                                    </select>
                                 </div>
                               </div>
 
                               <div class="col-md-6">
                                 <div class="form-group">
-                                  <label for="exampleInputUsername1">Use Lot :</label>
+                                  <label for="exampleInputUsername1">Requirement</label>
+                                    <select class="form-select form-select-lg" id="exampleFormControlSelect1">
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5</option>
+                                    </select>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="exampleInputUsername1">Customer RFQ Return</label>
                                   <input type="text" class="form-control" id="exampleInputUsername1"
                                     placeholder="House Number">
                                 </div>
                               </div>
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Lot Size :</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="House Number">
-                                </div>
-                              </div>
-
                             </div>
                           </form>
                         </div>
@@ -667,24 +728,27 @@
                             <table class="table">
                               <thead>
                                 <tr>
-                                  <th> Assignee </th>
-                                  <th> Subject </th>
-                                  <th> Status </th>
-                                  <th> Last Update </th>
-                                  <th> Tracking ID </th>
+                                  <th> Part Number </th>
+                                  <th> Description </th>
+                                  <th> Qty </th>
+                                  <th> User Lot </th>
+                                  <th> Lot Size </th>
+                                  <th> Action </th>
+
                                 </tr>
                               </thead>
                               <tbody>
                                 <tr>
                                   <td>
-                                    <img src="assets/images/faces/face1.jpg" class="me-2" alt="image"> David Grey
+                                    7740019951
                                   </td>
-                                  <td> Fund is not recieved </td>
+                                  <td> KEBxHS202015S4B1 SK </td>
+                                  <td> 1 </td>
                                   <td>
-                                    <label class="badge badge-gradient-success">DONE</label>
-                                  </td>
-                                  <td> Dec 5, 2017 </td>
-                                  <td> WD-12345 </td>
+                                    <label class="badge badge-gradient-success">Yes</label>
+                                  </td>                                    
+                                  <td> 1</td>
+                                  <td> <i class="mdi mdi-delete menu-icon delete-icon"></i></td>
                                 </tr>
                               </tbody>
                             </table>
@@ -699,6 +763,339 @@
                       </div>
                     </div>
                   </div>
+
+                   <!-- wm-component -->
+                  <div class="col-sm-12 mt-4">
+                    <div class="card dash-card grey-card">
+                      <div class="card-header">
+                        <span> WM Component</span>
+                      </div>
+                      <div class="card-body">
+                        <div class="form-box">
+                          <form class="forms-sample">
+                            <div class="row">
+
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="exampleInputUsername1">Part Number</label>
+                                  <input type="text" class="form-control" id="exampleInputUsername1"
+                                    placeholder="Quote">
+                                </div>
+                              </div>
+                           
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="exampleInputUsername1">QTY </label>
+                                    <select class="form-select form-select-lg" id="exampleFormControlSelect1">
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5</option>
+                                    </select>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="exampleInputUsername1">Extended Description : </label>
+                                  <textarea class="form-control" placeholder="Leave a comment here"
+                                  id="floatingTextarea2" style="height: 100px"></textarea>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+
+                        <div class="w-100 text-end mt-3">
+                          <div class="btn btn-outline">add</div>
+                        </div>
+
+                        <div class="custom-table mt-3">
+                          <div class="table-responsive">
+                            <table class="table">
+                              <thead>
+                                <tr>
+                                  <th> Part Number </th>
+                                  <th> Description </th>
+                                  <th> Qty </th>
+                                  <th> Action </th>
+
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    1065000000
+                                  </td>
+                                  <td> WQL 2 WFF70 </td>
+                                  <td> 2 </td>
+                                  <td> <i class="mdi mdi-delete menu-icon delete-icon"></i></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+
+                        <div class="w-100 text-end mt-3 d-flex align-items-center justify-content-end">
+                          <div class="btn btn-outline">save</div>
+                          <div class="btn btn-outline ms-3">cancel</div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                    <!-- Holes & Threads -->
+                    <div class="col-sm-12 mt-4">
+                      <div class="card dash-card green-card">
+                        <div class="card-header">
+                          <span>Holes & Threads</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="form-box">
+                            <form class="forms-sample">
+                              <div class="row">
+  
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label for="exampleInputUsername1">Part Number</label>
+                                    <input type="text" class="form-control" id="exampleInputUsername1"
+                                      placeholder="Quote">
+                                  </div>
+                                </div>
+                             
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label for="exampleInputUsername1">QTY </label>
+                                      <select class="form-select form-select-lg" id="exampleFormControlSelect1">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                      </select>
+                                  </div>
+                                </div>
+  
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label for="exampleInputUsername1">Extended Description : </label>
+                                    <textarea class="form-control" placeholder="Leave a comment here"
+                                    id="floatingTextarea2" style="height: 100px"></textarea>
+                                  </div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+  
+                          <div class="w-100 text-end mt-3">
+                            <div class="btn btn-outline">add</div>
+                          </div>
+  
+                         <div class="custom-table mt-3">
+                          <div class="table-responsive">
+                            <table class="table">
+                              <thead>
+                                <tr>
+                                  <th> Holes & Threads </th>
+                                  <th> Description </th>
+                                  <th> Qty </th>
+                                  <th> Action </th>
+
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    SUS Ø06 - 3mm
+                                  </td>
+                                  <td>   SUS Clearance M06  </td>
+                                  <td> 2 </td>
+                                  <td> <i class="mdi mdi-delete menu-icon delete-icon"></i></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+  
+                          <div class="w-100 text-end mt-3 d-flex align-items-center justify-content-end">
+                            <div class="btn btn-outline">save</div>
+                            <div class="btn btn-outline ms-3">cancel</div>
+                          </div>
+  
+                        </div>
+                      </div>
+                    </div>
+
+                       <!-- Standard Operation -->
+                       <div class="col-sm-12 mt-4">
+                        <div class="card dash-card part-boxe">
+                          <div class="card-header">
+                            <span>Standard Operation</span>
+                          </div>
+                          <div class="card-body">
+                            <div class="form-box">
+                              <form class="forms-sample">
+                                <div class="row">
+    
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label for="exampleInputUsername1">Part Number</label>
+                                      <input type="text" class="form-control" id="exampleInputUsername1"
+                                        placeholder="Quote">
+                                    </div>
+                                  </div>
+                               
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label for="exampleInputUsername1">QTY </label>
+                                        <select class="form-select form-select-lg" id="exampleFormControlSelect1">
+                                          <option>1</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                          <option>4</option>
+                                          <option>5</option>
+                                        </select>
+                                    </div>
+                                  </div>
+    
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label for="exampleInputUsername1">Extended Description : </label>
+                                      <textarea class="form-control" placeholder="Leave a comment here"
+                                      id="floatingTextarea2" style="height: 100px"></textarea>
+                                    </div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+    
+                            <div class="w-100 text-end mt-3">
+                              <div class="btn btn-outline">add</div>
+                            </div>
+    
+                            <div class="custom-table mt-3">
+                              <div class="table-responsive">
+                                <table class="table">
+                                  <thead>
+                                    <tr>
+                                      <th> Part Number </th>
+                                      <th> Description </th>
+                                      <th> Qty </th>
+                                      <th> User Lot </th>
+                                      <th> Lot Size </th>
+                                      <th> Action </th>
+
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>
+                                        7740019951
+                                      </td>
+                                      <td> KEBxHS202015S4B1 SK </td>
+                                      <td> 1 </td>
+                                      <td>
+                                        <label class="badge badge-gradient-success">Yes</label>
+                                      </td>                                    
+                                      <td> 1</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+    
+                            <div class="w-100 text-end mt-3 d-flex align-items-center justify-content-end">
+                              <div class="btn btn-outline">save</div>
+                              <div class="btn btn-outline ms-3">cancel</div>
+                            </div>
+    
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 3rd Party Components -->
+                    <div class="col-sm-12 mt-4">
+                      <div class="card dash-card green-card">
+                        <div class="card-header">
+                          <span>3rd Party Components</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="form-box">
+                            <form class="forms-sample">
+                              <div class="row">
+  
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label for="exampleInputUsername1">Part Number</label>
+                                    <input type="text" class="form-control" id="exampleInputUsername1"
+                                      placeholder="Quote">
+                                  </div>
+                                </div>
+                             
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label for="exampleInputUsername1">QTY </label>
+                                      <select class="form-select form-select-lg" id="exampleFormControlSelect1">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                      </select>
+                                  </div>
+                                </div>
+  
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label for="exampleInputUsername1">Extended Description : </label>
+                                    <textarea class="form-control" placeholder="Leave a comment here"
+                                    id="floatingTextarea2" style="height: 100px"></textarea>
+                                  </div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+  
+                          <div class="w-100 text-end mt-3">
+                            <div class="btn btn-outline">add</div>
+                          </div>
+  
+                         <div class="custom-table mt-3">
+                          <div class="table-responsive">
+                            <table class="table">
+                              <thead>
+                                <tr>
+                                  <th> Holes & Threads </th>
+                                  <th> Description </th>
+                                  <th> Qty </th>
+                                  <th> Action </th>
+
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    SUS Ø06 - 3mm
+                                  </td>
+                                  <td>   SUS Clearance M06  </td>
+                                  <td> 2 </td>
+                                  <td> <i class="mdi mdi-delete menu-icon delete-icon"></i></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+  
+                          <div class="w-100 text-end mt-3 d-flex align-items-center justify-content-end">
+                            <div class="btn btn-outline">save</div>
+                            <div class="btn btn-outline ms-3">cancel</div>
+                          </div>
+  
+                        </div>
+                      </div>
+                    </div>
                   <!--  -->
                 </div>
               </div>
@@ -708,14 +1105,14 @@
         </div>
         <!-- content-wrapper ends -->
         <!-- partial:../../partials/_footer.html -->
-        <footer class="footer">
+        <!-- <footer class="footer">
           <div class="d-sm-flex justify-content-center justify-content-sm-between">
             <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2023 <a
                 href="https://www.bootstrapdash.com/" target="_blank">BootstrapDash</a>. All rights reserved.</span>
             <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i
                 class="mdi mdi-heart text-danger"></i></span>
           </div>
-        </footer>
+        </footer> -->
         <!-- partial -->
       </div>
       <!-- main-panel ends -->
