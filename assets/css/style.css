@@ -11427,22 +11427,13 @@ textarea.is-invalid.tt-hint, .select2-container--default .select2-selection--sin
 }
 
 .btn-primary {
-  --bs-btn-color: #000;
-  --bs-btn-bg: #EF7800;
   background: #EF7800;
   color: #000;
-  --bs-btn-border-color: #EF7800;
-  --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #c183ff;
-  --bs-btn-hover-border-color: #bd7cff;
-  --bs-btn-focus-shadow-rgb: 155, 93, 217;
-  --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #c58aff;
-  --bs-btn-active-border-color: #bd7cff;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #EF7800;
-  --bs-btn-disabled-border-color: #EF7800;
+}
+
+.btn-primary:hover {
+  color: #EF7800;
+  background: #000000;
 }
 
 .btn-outline{
@@ -11451,9 +11442,9 @@ textarea.is-invalid.tt-hint, .select2-container--default .select2-selection--sin
   border: 1px solid #EF7800;
 }
 
-.btn-primary:hover {
-  color: #EF7800;
-  background: #000;
+.btn-outline:hover{
+  color: #000000;
+  border: 1px solid #000000;
 }
 
 .btn-secondary {
@@ -25187,7 +25178,7 @@ dl li {
   color: #1b2658;
 }
 .navbar .navbar-brand-wrapper .navbar-brand img {
-  width: calc(260px - 120px);
+  width: calc(300px - 120px);
   max-width: 100%;
   height: 28px;
   margin: auto;
@@ -25197,7 +25188,7 @@ dl li {
   display: none;
 }
 .navbar .navbar-brand-wrapper .navbar-brand.brand-logo-mini img {
-  width: calc(70px - 50px);
+  width: calc(120px - 50px);
   max-width: 100%;
   height: 28px;
   margin: auto;
@@ -26355,3 +26346,35 @@ form.forms-sample .form-control{
   letter-spacing: 1px;
 }
 
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Loader Animation */
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgb(239, 120, 0,0.5);
+  border-top: 5px solid #ef7800;
+  border-radius: 50%;
+  animation: spin 50s linear infinite;
+}
+
+/* Spin Animation */
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
