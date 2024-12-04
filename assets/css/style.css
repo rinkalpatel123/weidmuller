@@ -26374,3 +26374,9 @@ color: #EF7800;
       transform: rotate(360deg);
   }
 }
+
+/* back-btn */
+.back-btn i {
+  color: #ef7800;
+  font-size: 26px;
+}

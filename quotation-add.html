@@ -263,842 +263,480 @@
             </h3>
           </div>
           <div class="row">
-            <div class="col-sm-12 custom-tabbing">
-              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">
-                    Company</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
-                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
-                    Quotation Details</button>
-                </li>
-              </ul>
-              <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
-                  tabindex="0">
-                  <div class="col-sm-12 mt-4">
-                    <div class="card dash-card">
-                      <div class="card-header">
-                        <span>Company Details</span>
-                      </div>
-                      <div class="card-body">
-                        <div class="form-box">
-                          <form class="forms-sample">
-                            <div class="form-group mb-0">
-                              <!-- <label for="exampleInputUsername1">Username</label> -->
+            <div class="col-sm-12">
+
+              <!-- back button -->
+              <div class="col-sm-12 mt-4">
+                <a class="back-btn" href="quotation-config.html">
+                  <i class="mdi mdi-arrow-left-thick"></i>
+                </a>
+              </div>
+               <!-- back button -->
+
+              <!-- Parts-finish product -->
+              <div class="col-sm-12 mt-4">
+                <div class="card dash-card part-boxe">
+                  <div class="card-header">
+                    <span> Parts - Boxs</span>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-box">
+                      <form class="forms-sample">
+                        <div class="row">
+
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputUsername1">Quote</label>
+                              <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Quote">
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputUsername1">Date</label>
+                              <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Date">
+                            </div>
+                          </div>
+
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputUsername1">WMKENQ </label>
+                              <input type="text" class="form-control" id="exampleInputUsername1" placeholder="WMKENQ">
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputUsername1">Item Part</label>
                               <input type="text" class="form-control" id="exampleInputUsername1"
-                                placeholder="Weidmuller">
+                                placeholder="Item Part">
                             </div>
-                          </form>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!--  -->
-                  <div class="col-sm-12 mt-4">
-                    <div class="card dash-card">
-                      <div class="card-header">
-                        <span>Company Address</span>
-                      </div>
-                      <div class="card-body">
-                        <div class="form-box">
-                          <form class="forms-sample">
-                            <div class="row">
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Building / House Number</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="House Number">
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Street</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="House Number">
-                                </div>
-                              </div>
+                          </div>
 
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Town/City</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="House Number">
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Other</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="House Number">
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">State</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="House Number">
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Postal Code</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="House Number">
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Tel.</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="House Number">
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Fax</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="House Number">
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Email</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="House Number">
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Website</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="www.klipponengineering.com">
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Person / Department to contact</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="Department to contact">
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Number</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="+97165981518">
-                                </div>
-                              </div>
-
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputUsername1">Margin</label>
+                              <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Margin">
                             </div>
-                          </form>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!--  -->
-                  <!--  -->
-                  <div class="col-sm-12 mt-4">
-                    <div class="card dash-card">
-                      <div class="card-header">
-                        <span>Finance Specific Setting</span>
-                      </div>
-                      <div class="card-body">
-                        <div class="form-box">
-                          <form class="forms-sample">
-                            <div class="row">
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Select Relevant </label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="House Number">
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">AS Center Location</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="House Number">
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Quoted Currency</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="House Number">
-                                </div>
-                              </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputUsername1">QTY</label>
+                              <select class="form-select form-select-lg" id="exampleFormControlSelect1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                              </select>
                             </div>
-                          </form>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!--  -->
-                  <!--  -->
-                  <div class="col-sm-12 mt-4">
-                    <div class="card dash-card">
-                      <div class="card-header">
-                        <span>Customer Details</span>
-                      </div>
-                      <div class="card-body">
-                        <div class="form-box">
-                          <form class="forms-sample">
-                            <div class="row">
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Internal Quote Number</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1" placeholder="123">
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Internal Customer Number</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1" placeholder="456">
-                                </div>
-                              </div>
+                          </div>
 
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Contact Name</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="91836534232">
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Customer Name</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1" placeholder="xyz">
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Street</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1" placeholder="agd">
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Town / City</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1" placeholder="dsa">
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Country</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="Country">
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Fax</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1" placeholder="NSW">
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">State / Region</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1" placeholder="NSW">
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Postal Code</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1" placeholder="2752">
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Tel.</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="57423">
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Email</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="rick.west@weidmuller.com">
-                                </div>
-                              </div>
-
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Project Description</label>
-                                  <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a comment here"
-                                      id="floatingTextarea2" style="height: 100px"></textarea>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Special Conditions</label>
-                                  <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a comment here"
-                                      id="floatingTextarea2" style="height: 100px"></textarea>
-                                  </div>
-                                </div>
-                              </div>
-
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputUsername1">Requirement</label>
+                              <select class="form-select form-select-lg" id="exampleFormControlSelect1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                              </select>
                             </div>
-                          </form>
+                          </div>
+
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputUsername1">Customer RFQ Return</label>
+                              <input type="text" class="form-control" id="exampleInputUsername1"
+                                placeholder="House Number">
+                            </div>
+                          </div>
                         </div>
+                      </form>
+                    </div>
+
+                    <!-- <div class="w-100 text-end mt-3">
+                      <div class="btn btn-outline">add</div>
+                    </div> -->
+
+                    <!-- <div class="custom-table mt-3">
+                      <div class="table-responsive">
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th> Part Number </th>
+                              <th> Description </th>
+                              <th> Qty </th>
+                              <th> User Lot </th>
+                              <th> Lot Size </th>
+                              <th> Action </th>
+
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>
+                                7740019951
+                              </td>
+                              <td> KEBxHS202015S4B1 SK </td>
+                              <td> 1 </td>
+                              <td>
+                                <label class="badge badge-gradient-success">Yes</label>
+                              </td>
+                              <td> 1</td>
+                              <td> <i class="mdi mdi-delete menu-icon delete-icon"></i></td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
-                    </div>
+                    </div> -->
+
+                    <!-- <div class="w-100 text-end mt-3 d-flex align-items-center justify-content-end">
+                      <div class="btn btn-outline">save</div>
+                      <div class="btn btn-outline ms-3">cancel</div>
+                    </div> -->
+
                   </div>
-                  <!--  -->
-                  <!--  -->
-                  <div class="col-sm-12">
-                    <div class="footer-btn-flex d-flex align-items-center justify-content-end w-100 mt-3">
-                      <div class="btn btn-primary">Save</div>
-                      <div class="btn btn-primary mx-3">next</div>
-                      <div class="btn btn-primary">cancel</div>
-                    </div>
-                  </div>
-                  <!--  -->
                 </div>
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
-                  tabindex="0">
-                  <!--  -->
-                  <div class="col-sm-12">
-                    <div class="w-100 text-end mt-3">
-                      <div class="btn btn-outline">Add Part</div>
+              </div>
+
+              <!-- wm-component -->
+              <div class="col-sm-12 mt-4">
+                <div class="card dash-card grey-card">
+                  <div class="card-header">
+                    <span> WM Component</span>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-box">
+                      <form class="forms-sample">
+                        <div class="row">
+
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputUsername1">Part Number</label>
+                              <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Quote">
+                            </div>
+                          </div>
+
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputUsername1">QTY </label>
+                              <select class="form-select form-select-lg" id="exampleFormControlSelect1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                              </select>
+                            </div>
+                          </div>
+
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputUsername1">Extended Description : </label>
+                              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                style="height: 100px"></textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
                     </div>
+
+                    <!-- <div class="w-100 text-end mt-3">
+                      <div class="btn btn-outline">add</div>
+                    </div> -->
 
                     <div class="custom-table mt-3">
                       <div class="table-responsive">
                         <table class="table">
                           <thead>
                             <tr>
-                              <th> # </th>
-                              <th> Parts </th>
-                              <th> Status </th>
-                              <th> Last Update </th>
+                              <th> Part Number </th>
+                              <th> Description </th>
+                              <th> Qty </th>
                               <th> Action </th>
+
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
                               <td>
-                                1
+                                1065000000
                               </td>
-                              <td> Part 1 </td>
-                              <td> abc </td>
-                              <td> xyz </td>
-                              <td>
-                                <div class="d-flex align-items-center">
-                                  <i class="mdi mdi-content-copy menu-icon"></i>
-                                  <i class="mdi mdi-pencil menu-icon mx-2"></i>
-                                  <i class="mdi mdi-delete menu-icon"></i>
-                                </div>
-                              </td>
-
-                            </tr>
-                            <tr>
-                              <td>
-                                2
-                              </td>
-                              <td> Part 2 </td>
-                              <td> Dec 5, 2017 </td>
-                              <td> xyz </td>
-                              <td>
-                                <div class="d-flex align-items-center">
-                                  <i class="mdi mdi-content-copy menu-icon"></i>
-                                  <i class="mdi mdi-pencil menu-icon mx-2"></i>
-                                  <i class="mdi mdi-delete menu-icon"></i>
-                                </div>
-                              </td>
-
+                              <td> WQL 2 WFF70 </td>
+                              <td> 2 </td>
+                              <td> <i class="mdi mdi-delete menu-icon delete-icon"></i></td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
                     </div>
 
-                    <div class="w-100 text-end mt-3 align-items-center justify-content-end">
-                      <div class="btn btn-outline">Submit</div>
-                    </div>
+                    <!-- <div class="w-100 text-end mt-3 d-flex align-items-center justify-content-end">
+                      <div class="btn btn-outline">save</div>
+                      <div class="btn btn-outline ms-3">cancel</div>
+                    </div> -->
+
                   </div>
-
-                  <!-- Parts-finish product -->
-                  <div class="col-sm-12 mt-4">
-                    <div class="card dash-card part-boxe">
-                      <div class="card-header">
-                        <span> Parts - Boxs</span>
-                      </div>
-                      <div class="card-body">
-                        <div class="form-box">
-                          <form class="forms-sample">
-                            <div class="row">
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Quote</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="Quote">
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Date</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Date">
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">WMKENQ </label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="WMKENQ">
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Item Part</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="Item Part">
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Margin</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="Margin">
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">QTY</label>
-                                  <select class="form-select form-select-lg" id="exampleFormControlSelect1">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                  </select>
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Requirement</label>
-                                  <select class="form-select form-select-lg" id="exampleFormControlSelect1">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                  </select>
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Customer RFQ Return</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="House Number">
-                                </div>
-                              </div>
-                            </div>
-                          </form>
-                        </div>
-
-                        <div class="w-100 text-end mt-3">
-                          <div class="btn btn-outline">add</div>
-                        </div>
-
-                        <div class="custom-table mt-3">
-                          <div class="table-responsive">
-                            <table class="table">
-                              <thead>
-                                <tr>
-                                  <th> Part Number </th>
-                                  <th> Description </th>
-                                  <th> Qty </th>
-                                  <th> User Lot </th>
-                                  <th> Lot Size </th>
-                                  <th> Action </th>
-
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td>
-                                    7740019951
-                                  </td>
-                                  <td> KEBxHS202015S4B1 SK </td>
-                                  <td> 1 </td>
-                                  <td>
-                                    <label class="badge badge-gradient-success">Yes</label>
-                                  </td>
-                                  <td> 1</td>
-                                  <td> <i class="mdi mdi-delete menu-icon delete-icon"></i></td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
-                        </div>
-
-                        <div class="w-100 text-end mt-3 d-flex align-items-center justify-content-end">
-                          <div class="btn btn-outline">save</div>
-                          <div class="btn btn-outline ms-3">cancel</div>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- wm-component -->
-                  <div class="col-sm-12 mt-4">
-                    <div class="card dash-card grey-card">
-                      <div class="card-header">
-                        <span> WM Component</span>
-                      </div>
-                      <div class="card-body">
-                        <div class="form-box">
-                          <form class="forms-sample">
-                            <div class="row">
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Part Number</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="Quote">
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">QTY </label>
-                                  <select class="form-select form-select-lg" id="exampleFormControlSelect1">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                  </select>
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Extended Description : </label>
-                                  <textarea class="form-control" placeholder="Leave a comment here"
-                                    id="floatingTextarea2" style="height: 100px"></textarea>
-                                </div>
-                              </div>
-                            </div>
-                          </form>
-                        </div>
-
-                        <div class="w-100 text-end mt-3">
-                          <div class="btn btn-outline">add</div>
-                        </div>
-
-                        <div class="custom-table mt-3">
-                          <div class="table-responsive">
-                            <table class="table">
-                              <thead>
-                                <tr>
-                                  <th> Part Number </th>
-                                  <th> Description </th>
-                                  <th> Qty </th>
-                                  <th> Action </th>
-
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td>
-                                    1065000000
-                                  </td>
-                                  <td> WQL 2 WFF70 </td>
-                                  <td> 2 </td>
-                                  <td> <i class="mdi mdi-delete menu-icon delete-icon"></i></td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
-                        </div>
-
-                        <div class="w-100 text-end mt-3 d-flex align-items-center justify-content-end">
-                          <div class="btn btn-outline">save</div>
-                          <div class="btn btn-outline ms-3">cancel</div>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Holes & Threads -->
-                  <div class="col-sm-12 mt-4">
-                    <div class="card dash-card green-card">
-                      <div class="card-header">
-                        <span>Holes & Threads</span>
-                      </div>
-                      <div class="card-body">
-                        <div class="form-box">
-                          <form class="forms-sample">
-                            <div class="row">
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Part Number</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="Quote">
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">QTY </label>
-                                  <select class="form-select form-select-lg" id="exampleFormControlSelect1">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                  </select>
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Extended Description : </label>
-                                  <textarea class="form-control" placeholder="Leave a comment here"
-                                    id="floatingTextarea2" style="height: 100px"></textarea>
-                                </div>
-                              </div>
-                            </div>
-                          </form>
-                        </div>
-
-                        <div class="w-100 text-end mt-3">
-                          <div class="btn btn-outline">add</div>
-                        </div>
-
-                        <div class="custom-table mt-3">
-                          <div class="table-responsive">
-                            <table class="table">
-                              <thead>
-                                <tr>
-                                  <th> Holes & Threads </th>
-                                  <th> Description </th>
-                                  <th> Qty </th>
-                                  <th> Action </th>
-
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td>
-                                    SUS Ø06 - 3mm
-                                  </td>
-                                  <td> SUS Clearance M06  </td>
-                                  <td> 2 </td>
-                                  <td> <i class="mdi mdi-delete menu-icon delete-icon"></i></td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
-                        </div>
-
-                        <div class="w-100 text-end mt-3 d-flex align-items-center justify-content-end">
-                          <div class="btn btn-outline">save</div>
-                          <div class="btn btn-outline ms-3">cancel</div>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Standard Operation -->
-                  <div class="col-sm-12 mt-4">
-                    <div class="card dash-card part-boxe">
-                      <div class="card-header">
-                        <span>Standard Operation</span>
-                      </div>
-                      <div class="card-body">
-                        <div class="form-box">
-                          <form class="forms-sample">
-                            <div class="row">
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Part Number</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="Quote">
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">QTY </label>
-                                  <select class="form-select form-select-lg" id="exampleFormControlSelect1">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                  </select>
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Extended Description : </label>
-                                  <textarea class="form-control" placeholder="Leave a comment here"
-                                    id="floatingTextarea2" style="height: 100px"></textarea>
-                                </div>
-                              </div>
-                            </div>
-                          </form>
-                        </div>
-
-                        <div class="w-100 text-end mt-3">
-                          <div class="btn btn-outline">add</div>
-                        </div>
-
-                        <div class="custom-table mt-3">
-                          <div class="table-responsive">
-                            <table class="table">
-                              <thead>
-                                <tr>
-                                  <th> Part Number </th>
-                                  <th> Description </th>
-                                  <th> Qty </th>
-                                  <th> User Lot </th>
-                                  <th> Lot Size </th>
-                                  <th> Action </th>
-
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td>
-                                    7740019951
-                                  </td>
-                                  <td> KEBxHS202015S4B1 SK </td>
-                                  <td> 1 </td>
-                                  <td>
-                                    <label class="badge badge-gradient-success">Yes</label>
-                                  </td>
-                                  <td> 1</td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
-                        </div>
-
-                        <div class="w-100 text-end mt-3 d-flex align-items-center justify-content-end">
-                          <div class="btn btn-outline">save</div>
-                          <div class="btn btn-outline ms-3">cancel</div>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- 3rd Party Components -->
-                  <div class="col-sm-12 mt-4">
-                    <div class="card dash-card green-card">
-                      <div class="card-header">
-                        <span>3rd Party Components</span>
-                      </div>
-                      <div class="card-body">
-                        <div class="form-box">
-                          <form class="forms-sample">
-                            <div class="row">
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Part Number</label>
-                                  <input type="text" class="form-control" id="exampleInputUsername1"
-                                    placeholder="Quote">
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">QTY </label>
-                                  <select class="form-select form-select-lg" id="exampleFormControlSelect1">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                  </select>
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label for="exampleInputUsername1">Extended Description : </label>
-                                  <textarea class="form-control" placeholder="Leave a comment here"
-                                    id="floatingTextarea2" style="height: 100px"></textarea>
-                                </div>
-                              </div>
-                            </div>
-                          </form>
-                        </div>
-
-                        <div class="w-100 text-end mt-3">
-                          <div class="btn btn-outline">add</div>
-                        </div>
-
-                        <div class="custom-table mt-3">
-                          <div class="table-responsive">
-                            <table class="table">
-                              <thead>
-                                <tr>
-                                  <th> Holes & Threads </th>
-                                  <th> Description </th>
-                                  <th> Qty </th>
-                                  <th> Action </th>
-
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td>
-                                    SUS Ø06 - 3mm
-                                  </td>
-                                  <td> SUS Clearance M06  </td>
-                                  <td> 2 </td>
-                                  <td> <i class="mdi mdi-delete menu-icon delete-icon"></i></td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
-                        </div>
-
-                        <div class="w-100 text-end mt-3 d-flex align-items-center justify-content-end">
-                          <div class="btn btn-outline">save</div>
-                          <div class="btn btn-outline ms-3">cancel</div>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                  <!--  -->
                 </div>
               </div>
+
+              <!-- Holes & Threads -->
+              <div class="col-sm-12 mt-4">
+                <div class="card dash-card green-card">
+                  <div class="card-header">
+                    <span>Holes & Threads</span>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-box">
+                      <form class="forms-sample">
+                        <div class="row">
+
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputUsername1">Part Number</label>
+                              <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Quote">
+                            </div>
+                          </div>
+
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputUsername1">QTY </label>
+                              <select class="form-select form-select-lg" id="exampleFormControlSelect1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                              </select>
+                            </div>
+                          </div>
+
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputUsername1">Extended Description : </label>
+                              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                style="height: 100px"></textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+
+                    <!-- <div class="w-100 text-end mt-3">
+                      <div class="btn btn-outline">add</div>
+                    </div> -->
+
+                    <div class="custom-table mt-3">
+                      <div class="table-responsive">
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th> Holes & Threads </th>
+                              <th> Description </th>
+                              <th> Qty </th>
+                              <th> Action </th>
+
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>
+                                SUS Ø06 - 3mm
+                              </td>
+                              <td> SUS Clearance M06  </td>
+                              <td> 2 </td>
+                              <td> <i class="mdi mdi-delete menu-icon delete-icon"></i></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+
+                    <!-- <div class="w-100 text-end mt-3 d-flex align-items-center justify-content-end">
+                      <div class="btn btn-outline">save</div>
+                      <div class="btn btn-outline ms-3">cancel</div>
+                    </div> -->
+
+                  </div>
+                </div>
+              </div>
+
+              <!-- Standard Operation -->
+              <div class="col-sm-12 mt-4">
+                <div class="card dash-card part-boxe">
+                  <div class="card-header">
+                    <span>Standard Operation</span>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-box">
+                      <form class="forms-sample">
+                        <div class="row">
+
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputUsername1">Part Number</label>
+                              <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Quote">
+                            </div>
+                          </div>
+
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputUsername1">QTY </label>
+                              <select class="form-select form-select-lg" id="exampleFormControlSelect1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                              </select>
+                            </div>
+                          </div>
+
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputUsername1">Extended Description : </label>
+                              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                style="height: 100px"></textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+
+                    <!-- <div class="w-100 text-end mt-3">
+                      <div class="btn btn-outline">add</div>
+                    </div> -->
+
+                    <div class="custom-table mt-3">
+                      <div class="table-responsive">
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th> Part Number </th>
+                              <th> Description </th>
+                              <th> Qty </th>
+                              <th> User Lot </th>
+                              <th> Lot Size </th>
+                              <th> Action </th>
+
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>
+                                7740019951
+                              </td>
+                              <td> KEBxHS202015S4B1 SK </td>
+                              <td> 1 </td>
+                              <td>
+                                <label class="badge badge-gradient-success">Yes</label>
+                              </td>
+                              <td> 1</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+
+                    <!-- <div class="w-100 text-end mt-3 d-flex align-items-center justify-content-end">
+                      <div class="btn btn-outline">save</div>
+                      <div class="btn btn-outline ms-3">cancel</div>
+                    </div> -->
+
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3rd Party Components -->
+              <div class="col-sm-12 mt-4">
+                <div class="card dash-card green-card">
+                  <div class="card-header">
+                    <span>3rd Party Components</span>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-box">
+                      <form class="forms-sample">
+                        <div class="row">
+
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputUsername1">Part Number</label>
+                              <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Quote">
+                            </div>
+                          </div>
+
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputUsername1">QTY </label>
+                              <select class="form-select form-select-lg" id="exampleFormControlSelect1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                              </select>
+                            </div>
+                          </div>
+
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputUsername1">Extended Description : </label>
+                              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                style="height: 100px"></textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+
+                    <!-- <div class="w-100 text-end mt-3">
+                      <div class="btn btn-outline">add</div>
+                    </div> -->
+
+                    <div class="custom-table mt-3">
+                      <div class="table-responsive">
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th> Holes & Threads </th>
+                              <th> Description </th>
+                              <th> Qty </th>
+                              <th> Action </th>
+
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>
+                                SUS Ø06 - 3mm
+                              </td>
+                              <td> SUS Clearance M06  </td>
+                              <td> 2 </td>
+                              <td> <i class="mdi mdi-delete menu-icon delete-icon"></i></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+
+                    <!-- <div class="w-100 text-end mt-3 d-flex align-items-center justify-content-end">
+                      <div class="btn btn-outline">save</div>
+                      <div class="btn btn-outline ms-3">cancel</div>
+                    </div> -->
+
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+
+              <!--  -->
+              <div class="col-sm-12">
+                <div class="footer-btn-flex d-flex align-items-center justify-content-end w-100 mt-3">
+                  <div class="btn btn-primary">Save</div>
+                  <div class="btn btn-primary ms-3">cancel</div>
+                </div>
+              </div>
+              <!--  -->
             </div>
 
           </div>
