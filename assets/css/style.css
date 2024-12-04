@@ -24989,6 +24989,7 @@ dl li {
 }
 .auth .auth-form-light {
   background: #ffffff;
+  -webkit-box-shadow: 0px 0px 28px rgb(0 0 0 / 16%);
 }
 .auth .auth-form-light select {
   color: #c9c8c8;
@@ -25044,7 +25045,7 @@ dl li {
   margin-bottom: 1.5rem;
 }
 .auth form .form-group label {
-  font-size: 0.8125rem;
+  font-size: 14px;
 }
 .auth form .form-group .form-control, .auth form .form-group .select2-container--default .select2-selection--single, .select2-container--default .auth form .form-group .select2-selection--single, .auth form .form-group .select2-container--default .select2-selection--single .select2-search__field, .select2-container--default .select2-selection--single .auth form .form-group .select2-search__field, .auth form .form-group .typeahead,
 .auth form .form-group .tt-query,
@@ -25052,6 +25053,11 @@ dl li {
   background: transparent;
   border-radius: 0;
   font-size: 0.9375rem;
+}
+
+.auth form .form-group .form-control{
+  border-radius: 7px;
+  padding: 15px;
 }
 .auth form .form-group .form-select {
   border-radius: 0;
