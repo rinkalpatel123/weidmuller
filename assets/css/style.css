@@ -11445,6 +11445,12 @@ textarea.is-invalid.tt-hint, .select2-container--default .select2-selection--sin
   --bs-btn-disabled-border-color: #EF7800;
 }
 
+.btn-outline{
+  background: #ffffff;
+  color: #EF7800;
+  border: 1px solid #EF7800;
+}
+
 .btn-primary:hover {
   color: #EF7800;
   background: #000;
@@ -26279,7 +26285,7 @@ dl li {
 }
 
 .content-wrapper {
-  background: #f2edf3;
+  background: #FFF6F6;
   padding: 2.75rem 2.25rem;
   width: 100%;
   -webkit-flex-grow: 1;
@@ -26337,5 +26343,15 @@ form.forms-sample .form-control{
   text-transform: capitalize;
   font-size: 15px;
   font-weight: 500;
+}
+
+/* table */
+.custom-table{
+  border: 1px solid #D9D9D9;
+}
+.custom-table table thead th{
+  background: #EF7800;
+  color: #ffffff;
+  letter-spacing: 1px;
 }
 
