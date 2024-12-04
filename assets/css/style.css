@@ -11429,6 +11429,8 @@ textarea.is-invalid.tt-hint, .select2-container--default .select2-selection--sin
 .btn-primary {
   --bs-btn-color: #000;
   --bs-btn-bg: #EF7800;
+  background: #EF7800;
+  color: #000;
   --bs-btn-border-color: #EF7800;
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #c183ff;
@@ -11441,6 +11443,11 @@ textarea.is-invalid.tt-hint, .select2-container--default .select2-selection--sin
   --bs-btn-disabled-color: #000;
   --bs-btn-disabled-bg: #EF7800;
   --bs-btn-disabled-border-color: #EF7800;
+}
+
+.btn-primary:hover {
+  color: #EF7800;
+  background: #000;
 }
 
 .btn-secondary {
@@ -26318,4 +26325,11 @@ form.forms-sample .form-control{
   Height:52px;
 }
 
+.btn{
+  padding: 14px 24px;
+  border-radius: 6px;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 500;
+}
 
