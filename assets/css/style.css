@@ -20902,7 +20902,9 @@ code {
   font-size: 21px;
   margin-bottom: 0;
   letter-spacing: 0.5px;
+  text-transform: capitalize;
 }
+
 .page-title .page-title-icon {
   display: inline-block;
   width: 36px;
