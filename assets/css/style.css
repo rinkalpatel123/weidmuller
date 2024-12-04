@@ -20902,7 +20902,9 @@ code {
   font-size: 21px;
   margin-bottom: 0;
   letter-spacing: 0.5px;
+  text-transform: capitalize;
 }
+
 .page-title .page-title-icon {
   display: inline-block;
   width: 36px;
@@ -26373,4 +26375,10 @@ color: #EF7800;
   100% {
       transform: rotate(360deg);
   }
+}
+
+/* back-btn */
+.back-btn i {
+  color: #ef7800;
+  font-size: 26px;
 }
