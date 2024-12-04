@@ -26297,7 +26297,8 @@ dl li {
   border: 0;
 }
 
-form.forms-sample .form-control{
+form.forms-sample .form-control,
+form.forms-sample .form-select{
   border: 1px solid #CBC1C1;
   background: #D9D9D930;
   border-radius: 8px;
@@ -26322,6 +26323,25 @@ form.forms-sample .form-control{
   letter-spacing: 1px;
 }
 
+.dash-card.part-boxe span{
+color: #EF7800;
+}
+
+.dash-card.grey-card{
+  background: #DEDADA;
+}
+
+.dash-card.green-card{
+  background: #F5FFE8;
+}
+
+.dash-card.green-card span{
+  color: #81B265;
+}
+
+.delete-icon{
+  color: #EF7800;
+}
 #loader {
   position: fixed;
   top: 0;
