@@ -25653,14 +25653,12 @@ dl li {
   transition-property: color;
   -webkit-transition-property: color;
 }
-.sidebar .nav .nav-item .nav-link i {
-  color: inherit;
-}
+
 .sidebar .nav .nav-item .nav-link i.menu-icon {
   font-size: 1.125rem;
   line-height: 1;
   margin-left: auto;
-  color: rgba(187, 168, 191, 0.9607843137);
+  color: #000000;
 }
 .rtl .sidebar .nav .nav-item .nav-link i.menu-icon {
   margin-left: 0;
@@ -26302,9 +26300,13 @@ dl li {
 form.forms-sample .form-control,
 form.forms-sample .form-select{
   border: 1px solid #CBC1C1;
-  background: #D9D9D930;
+  background-color: #D9D9D930;
   border-radius: 8px;
   Height:52px;
+}
+
+form.forms-sample .form-select{
+  position: relative;
 }
 
 .btn{
