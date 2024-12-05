@@ -25653,14 +25653,12 @@ dl li {
   transition-property: color;
   -webkit-transition-property: color;
 }
-.sidebar .nav .nav-item .nav-link i {
-  color: inherit;
-}
+
 .sidebar .nav .nav-item .nav-link i.menu-icon {
   font-size: 1.125rem;
   line-height: 1;
   margin-left: auto;
-  color: rgba(187, 168, 191, 0.9607843137);
+  color: #000000;
 }
 .rtl .sidebar .nav .nav-item .nav-link i.menu-icon {
   margin-left: 0;
@@ -26305,6 +26303,21 @@ form.forms-sample .form-select{
   background: #D9D9D930;
   border-radius: 8px;
   Height:52px;
+}
+
+form.forms-sample .form-select{
+  position: relative;
+}
+
+form.forms-sample .form-select:before {
+  position: absolute;
+  content: "\F140";
+  font-family: "Material Design Icons";
+  font-size: 24px;
+  z-index: 999;
+  top: 10px;
+  left: 10px;
+  color: #333; /* Optional color */
 }
 
 .btn{
